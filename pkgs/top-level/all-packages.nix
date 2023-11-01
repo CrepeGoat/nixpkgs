@@ -19334,6 +19334,8 @@ with pkgs;
 
   gocd-server = callPackage ../development/tools/continuous-integration/gocd-server { };
 
+  google-benchmark = callPackage ../development/tools/analysis/google-benchmark { };
+
   gopatch = callPackage ../development/tools/misc/gopatch { };
 
   goredo = callPackage ../development/tools/build-managers/goredo { };
